@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 import Faqs from './components/home/Faqs';
+import Testimonials from './components/home/Testimonials';
 
 function App() {
   return (
     <>
+    <Testimonials/>
       <Faqs/>
     </>
   );

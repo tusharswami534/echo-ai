@@ -1,0 +1,16 @@
+.bg-linear-gradient{
+    background-image: linear-gradient(to bottom , #68628F , transparent);
+}
+
+.swiper-pagination span{
+    background-color: white ;
+    width: 16px;
+    height: 16px;
+}
+.swiper-pagination-bullet-active-next , .swiper-pagination-bullet-active-prev{
+    background-color: white;
+}
+
+.swiper-wrapper{
+    padding-bottom: 40px;
+}
