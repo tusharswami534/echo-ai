@@ -1,12 +1,10 @@
 import React from 'react'
 import { RESULTS_AI_LIST } from '../../utils/helper'
 import CommonHeading from '../../common/CommonHeading'
-import Header from '../../common/Header'
 
 const ResultsAi = () => {
   return (
-    <div className='bg-dark-blue -mb-0.5 pt-[58px]'>
-        <Header/>
+    <div className='bg-dark-blue -mt-0.5 pt-[58px]'>
         <div className='max-w-[1138px] mx-auto'>
             <div className='flex max-lg:flex-wrap justify-center gap-y-10 max-md:gap-[30px]'>
                 {RESULTS_AI_LIST.map((item , index) => (

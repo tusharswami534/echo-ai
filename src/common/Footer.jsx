@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className='bg-dark-blue px-5 pt-[356px] max-xl:pt-[300px] max-lg:pt-[200px] max-md:pt-[150px] -mt-1 max-sm:pt-[96px]'>
         <div className='max-w-[1140px] mx-auto flex justify-between max-sm:flex-col max-sm:justify-center max-sm:items-center max-sm:gap-10'>
-            <a href="/"><img className='max-w-[150px]' src={FooterLogo} alt="footerLogo" /></a>
+            <a href="/"><img className='max-w-[150px] max-md:max-w-[130px] max-sm:max-w-[120px]' src={FooterLogo} alt="footerLogo" /></a>
             <div className='flex flex-col gap-3.5'>
                 <p className='text-base leading-[20px] max-sm:leading-[16px] max-sm:text-center text-white'>Quick Links</p>
                 {FOOTER_LIST.map((item , index) => (
@@ -27,7 +27,7 @@ const Footer = () => {
                 </div>
         </div>
         <div className='flex max-w-[1140px] pb-[30px] flex-col pt-[60px] mx-auto'>
-            <div className='footer-line h-0.5 w-full'></div>
+            <div className='bg-footer-line h-0.5 w-full'></div>
                 <p className='text-white text-center pt-5 leading-[150%] max-sm:text-sm'>Copyright ECHO AI © {year} | All Rights Reserved</p>
         </div>
     </div>

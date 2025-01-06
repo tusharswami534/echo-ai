@@ -13,7 +13,7 @@ const Header = () => {
   }, [open]);
 
   return (
-    <div className="bg-transparent relative px-5">
+    <div className="bg-transparent relative px-5 pt-3.5 max-xl:pt-5">
       <div className="max-w-[1140px] flex justify-between items-center mx-auto">
         <a href="/">
           <img
@@ -34,11 +34,11 @@ const Header = () => {
               {item.name}
             </a>
           ))}
-          <button className="font-semibold lg:hidden text-xl text-white bg-button-gradient py-[13.5px] px-8 rounded-[57px]">
+          <button className="font-semibold lg:hidden text-xl text-white hover:bg-button-gradient-hover bg-button-gradient py-[13.5px] px-8 rounded-[57px]">
             Get Started
           </button>
         </div>
-        <button className="font-semibold text-xl max-lg:hidden text-white bg-button-gradient py-[13.5px] px-8 rounded-[57px]">
+        <button className="font-semibold text-xl max-lg:hidden hover:bg-button-gradient-hover text-white bg-button-gradient py-[13.5px] px-8 rounded-[57px]">
           Get Started
         </button>
         <button
@@ -46,16 +46,16 @@ const Header = () => {
           className="overflow-hidden relative z-50 lg:hidden size-6 flex flex-col justify-between items-center"
         >
           <span
-            className={`bg-white rounded-md w-8 h-0.5 block transition-all duration-300 ${
+            className={`bg-white rounded-md w-6 h-0.5 block transition-all duration-300 ${
               open ? "translate-x-10" : ""
             }`}
           ></span>
           <span
-            className={`bg-white rounded-md after:rounded-lg w-8 h-0.5 block relative after:bg-white after:absolute after:top-0 after:left-0 after:w-full after:h-0.5 after:transition-all after:duration-300 transition-all duration-300 ${open ? "rotate-45 after:rotate-90" : ""
+            className={`bg-white rounded-md after:rounded-lg w-6 h-0.5 block relative after:bg-white after:absolute after:top-0 after:left-0 after:w-full after:h-0.5 after:transition-all after:duration-300 transition-all duration-300 ${open ? "rotate-45 after:rotate-90" : ""
             }`}
           ></span>
           <span
-            className={`bg-white rounded-md w-8 h-0.5 block transition-all duration-300 ${
+            className={`bg-white rounded-md w-6 h-0.5 block transition-all duration-300 ${
               open ? "-translate-x-10" : ""
             }`}
           ></span>
