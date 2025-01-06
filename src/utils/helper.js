@@ -67,3 +67,21 @@ export const FOOTER_LIST = [
     'Testimonials',
     'FAQs'
 ]
+
+export const RESULTS_AI_LIST = [
+    {
+        heading : '99%',
+        subHeading : 'Of all businesses see results with AI'
+    },
+    
+    {
+        heading : '$15T',
+        subHeading : 'Projected global AI market cap by 2030'
+    },
+    
+    {
+        heading : '3.5X',
+        subHeading : 'More likely to outperform competitors with AI'
+    },
+
+]
