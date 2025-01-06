@@ -37,7 +37,7 @@ const Testimonials = () => {
       >
         {TESTIMONIALS_LIST.map((item , index) => (
         <SwiperSlide className='max-w-[364px]' key={index}>
-            <div className='p-[24px_24px_0px_24px] rounded-3xl bg-linear-gradient max-w-[364px] '>
+            <div className='p-[24px_24px_0px_24px] rounded-3xl bg-slider-gradient max-w-[364px] '>
                 <h3 className='text-white pb-[8.39px] text-2xl leading-[28.8px] max-md:leading-[24px] max-lg:text-xl max-md:text-lg'>{item.heading}</h3>
                 <p className={`text-white  max-md:text-sm ${index === 2 ? 'pb-6' : 'pb-[47px]'}`}>{item.subHeading}</p>
                 <div className='flex gap-2 items-center'>
