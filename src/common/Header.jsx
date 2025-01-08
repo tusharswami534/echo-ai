@@ -5,7 +5,7 @@ import { HEADER_LIST } from "../utils/helper";
 const Header = () => {
   const [open , setOpen] = useState(false);
   const handleOpen = () => {
-        setOpen(!open)
+    setOpen(!open)
   }
 
   useEffect(() => {
@@ -29,7 +29,7 @@ const Header = () => {
             <a onClick={() => setOpen(false)}
               className="text-white hover:scale-105 transition-all duration-300"
               key={index}
-              href={item.url}
+              href={item.link}
             >
               {item.name}
             </a>

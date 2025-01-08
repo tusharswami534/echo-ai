@@ -40,22 +40,22 @@ export const TESTIMONIALS_LIST = [{
         heading: 'Huge Potential!',
         subHeading: '“I’m genuinely impressed with how the AI nurtures conversations and handles appointment setting. It adapts quickly, is 100% human like and has consistently outperformed expectations.”',
         profileImage: MiguleJordan,
-        ProfileName: 'Migule Jordan,',
-        ProfileDesignation: 'Appointment Setting Coach'
+        profileName: 'Migule Jordan,',
+        profileDesignation: 'Appointment Setting Coach'
     },
     {
         heading: 'Game Changer!',
         subHeading: '“ECHO AI has really revolutionized our operations. My team never has to chase down resources anymore—it’s all instantly accessible, streamlining our workflow and freeing up time.”',
         profileImage: RachelLettice,
-        ProfileName: 'Rachel Lettice,',
-        ProfileDesignation: 'Creative Director'
+        profileName: 'Rachel Lettice,',
+        profileDesignation: 'Creative Director'
     },
     {
         heading: 'This is Gold!',
         subHeading: '“The autonomous sales flow is extremely effective, to say the least. I was able to replace our full-time VA, cutting that expense completely  while maintaining efficiency and our standard high performing results.”',
         profileImage: MikeLotz,
-        ProfileName: 'Mike Lotz,',
-        ProfileDesignation: 'CEO (MREM)'
+        profileName: 'Mike Lotz,',
+        profileDesignation: 'CEO (MREM)'
     },
 ]
 
@@ -86,23 +86,23 @@ export const RESULTS_AI_LIST = [{
 
 export const HEADER_LIST = [{
         name: 'About us',
-        url: '#about-us'
+        link: '#about-us'
     },
     {
         name: 'Solutions',
-        url: '#solutions'
+        link: '#solutions'
     },
     {
         name: 'Benefits',
-        url: '#benefits'
+        link: '#benefits'
     },
     {
         name: 'Testimonials',
-        url: '#testimonials'
+        link: '#testimonials'
     },
 
     {
         name: 'FAQs',
-        url: '#fAQs'
+        link: '#faqs'
     },
 ]
