@@ -34,7 +34,7 @@ const Header = () => {
               {item.name}
             </a>
           ))}
-          <button className="font-semibold lg:hidden text-xl text-white hover:bg-button-gradient-hover bg-button-gradient py-[13.5px] px-8 rounded-[57px]">
+          <button onClick={() => setOpen(false)} className="font-semibold lg:hidden text-xl text-white hover:bg-button-gradient-hover bg-button-gradient py-[13.5px] px-8 rounded-[57px]">
             Get Started
           </button>
         </div>
