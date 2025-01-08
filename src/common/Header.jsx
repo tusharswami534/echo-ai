@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Logo from "../assets/image/webp/logo.webp";
-import { HEADER_LIST } from "../utils/helper";
+import {  LINKS_LIST } from "../utils/helper";
 
 const Header = () => {
   const [open , setOpen] = useState(false);
@@ -25,7 +25,7 @@ const Header = () => {
         <div
           className={`flex justify-center gap-8 items-center max-lg:flex-col max-lg:items-center max-lg:w-full max-lg:h-full max-lg:bg-dark-blue z-40 max-lg:fixed max-lg:top-0 max-lg:left-full max-lg:transition-all max-lg:duration-300 ${ open ? 'max-lg:!left-0' : ''}`}
         >
-          {HEADER_LIST.map((item, index) => (
+          {LINKS_LIST.map((item, index) => (
             <a onClick={() => setOpen(false)}
               className="text-white hover:scale-105 transition-all duration-300"
               key={index}

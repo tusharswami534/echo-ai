@@ -59,14 +59,6 @@ export const TESTIMONIALS_LIST = [{
     },
 ]
 
-export const FOOTER_LIST = [
-    'About us',
-    'Solutions',
-    'Benefits',
-    'Testimonials',
-    'FAQs'
-]
-
 export const RESULTS_AI_LIST = [{
         heading: '99%',
         subHeading: 'Of all businesses see results with AI'
@@ -84,7 +76,8 @@ export const RESULTS_AI_LIST = [{
 
 ]
 
-export const HEADER_LIST = [{
+export const LINKS_LIST = [
+    {
         name: 'About us',
         link: '#about-us'
     },

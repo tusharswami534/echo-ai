@@ -1,14 +1,14 @@
 .swiper-pagination span{
     background-color: white ;
-    width: 16px;
-    height: 16px;
+    width: 12px;
+    height: 12px;
 }
 .swiper-pagination-bullet-active-next , .swiper-pagination-bullet-active-prev{
     background-color: white;
 }
 
 .swiper-wrapper{
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 
 .swiper-slide{
@@ -20,4 +20,14 @@
     border-right: 1px solid transparent;
     border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
     border-image-slice: 1;
+}
+
+@media (max-width: 767.98px) {
+    .swiper-pagination span{
+        width: 8px;
+        height: 8px;
+    }
+    .swiper-wrapper{
+        padding-bottom: 40px;
+    }
 }

@@ -7,7 +7,7 @@ import ResultsAi from './ResultsAi'
 const Hero = () => {
   return (
     <div className='overflow-hidden relative -mb-0.5'>
-    <div className='bg-hero-image lg:min-h-[840px] bg-no-repeat bg-cover '>
+    <div className='bg-hero-image lg:min-h-[840px] bg-bottom bg-no-repeat bg-cover '>
         <Header/>
         <div className='flex justify-center pt-[60px] max-lg:px-5 items-center max-w-[1920px] mx-auto max-lg:flex-col gap-7 max-lg:pt-10 max-md:pt-7'>
             <div className='w-6/12 relative z-30 text-center max-lg:w-full'>
@@ -16,10 +16,10 @@ const Hero = () => {
                 <button className='text-xl font-semibold hover:bg-button-gradient-hover transition-all duration-300 text-white text-center py-[19.5px] px-[38px] max-md:py-4 max-md:px-8 max-md:text-lg bg-button-gradient rounded-[57px] '>Book A Call Now!</button>
             </div>
             <div>
-              <img className='max-w-[500px] w-full pointer-events-none max-lg:max-w-[400px] object-cover max-md:max-w-[370px] max-sm:max-w-[320px]' src={HeroImage} alt="hero img" />
+              <img className='max-w-[500px] w-full relative z-30 pointer-events-none max-lg:max-w-[400px] object-cover max-md:max-w-[370px] max-sm:max-w-[320px]' src={HeroImage} alt="hero img" />
             </div>
         </div>
-        <img className='absolute left-[0%] max-w-[322px] bottom-[0%]' src={EllipsisImage} alt="EllipsisImage" />
+        <img className='absolute left-[0%] max-w-[322px] bottom-[0%] max-sm:bottom-[25%]' src={EllipsisImage} alt="EllipsisImage" />
     </div>
         <ResultsAi/>
     </div>

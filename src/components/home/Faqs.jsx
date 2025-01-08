@@ -27,7 +27,7 @@ const Faqs = () => {
                 : "border-white border-opacity-10"
             }`}
           >
-            <div className="bg-dark-blue w-full rounded-xl p-6">
+            <div className="bg-dark-blue w-full rounded-xl p-6 max-md:p-4">
               <button
                 onClick={() => toggle(index)}
                 className={`flex w-full text-white justify-between max-sm:gap-4 bg-transparent items-center text-left max-sm:text-base font-medium text-xl max-md:text-lg ${

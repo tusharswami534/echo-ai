@@ -1,6 +1,6 @@
 import React from 'react'
 import FooterLogo from '../assets/image/webp/footer-logo.webp'
-import { FOOTER_LIST } from '../utils/helper'
+import { FOOTER_LIST, LINKS_LIST } from '../utils/helper'
 import { FaceBookIcon, InstagramIcon, LinkedinIcon } from '../utils/icons'
 
 const Footer = () => {
@@ -11,8 +11,8 @@ const Footer = () => {
             <a href="/"><img className='max-w-[150px] max-md:max-w-[130px] max-sm:max-w-[120px]' src={FooterLogo} alt="footerLogo" /></a>
             <div className='flex flex-col gap-3.5'>
                 <p className='text-base leading-[20px] max-sm:leading-[16px] max-sm:text-center text-white'>Quick Links</p>
-                {FOOTER_LIST.map((item , index) => (
-                    <a key={index} className='text-base leading-[20px] max-sm:text-sm max-sm:leading-[16px] text-light-pink hover:text-sky-blue cursor-pointer max-sm:text-center' href="/">{item}</a>
+                {LINKS_LIST.map((item , index) => (
+                    <a key={index} className='text-base leading-[20px] max-sm:text-sm max-sm:leading-[16px] text-light-pink hover:text-sky-blue cursor-pointer max-sm:text-center' href={item.link}>{item.name}</a>
                 ))}
                 </div>
                 <div className='flex flex-col'>
