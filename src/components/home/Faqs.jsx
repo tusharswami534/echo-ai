@@ -30,11 +30,11 @@ const Faqs = () => {
             <div className="bg-dark-blue w-full rounded-xl p-6 max-md:p-4">
               <button
                 onClick={() => toggle(index)}
-                className={`flex w-full text-white justify-between max-sm:gap-4 bg-transparent items-center text-left max-sm:text-base font-medium text-xl max-md:text-lg ${
+                className={`flex w-full text-white justify-between max-sm:gap-4 bg-transparent items-center transition-all duration-700 text-left max-sm:text-base font-medium text-xl max-md:text-lg ${
                   active === index ? "pb-4" : ""
                 }`}
               >
-                {item.heading}{" "}
+                {item.title}{" "}
                 <span
                   className={`transition-all duration-300 ${
                     active === index ? "rotate-180 " : ""
@@ -48,7 +48,7 @@ const Faqs = () => {
                   active === index ? "max-h-32 max-sm:max-h-52" : "max-h-0"
                 }`}
               >
-                {item.subHeading}
+                {item.description}
               </p>
             </div>
           </div>
