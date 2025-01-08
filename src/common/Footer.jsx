@@ -1,6 +1,6 @@
 import React from 'react'
 import FooterLogo from '../assets/image/webp/footer-logo.webp'
-import { FOOTER_LIST, LINKS_LIST } from '../utils/helper'
+import {  LINKS_LIST } from '../utils/helper'
 import { FaceBookIcon, InstagramIcon, LinkedinIcon } from '../utils/icons'
 
 const Footer = () => {
